@@ -57,7 +57,7 @@ public class FrequencyAnalysis {
         // Holds the frequency of each character in the txt file
         HashMap<Character, Integer> frequency = new HashMap<Character, Integer>();
         
-        // User a for each loop to iterate through each character
+        // Use a for each loop to iterate through each character
         for (char c : charArray) {
             // Check if character is a letter
             if (Character.isAlphabetic(c)) {
